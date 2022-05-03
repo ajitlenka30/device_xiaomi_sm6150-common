@@ -47,3 +47,7 @@ wifi.interface=wlan0
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
