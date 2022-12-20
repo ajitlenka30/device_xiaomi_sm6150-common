@@ -269,7 +269,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-corvus
+    $(LOCAL_PATH)/overlay-syberia
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
